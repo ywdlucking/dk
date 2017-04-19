@@ -1,0 +1,7 @@
+dependencies {
+	compile project(":dk-fast-rdbms-config")
+	compile files('lib/ojdbc14-10.2.0.2.0.jar')
+	compile "com.alibaba:fastjson:${fastjson_version}"
+	compile "mysql:mysql-connector-java:${mysql_version}"
+	compile "com.google.code.gson:gson:${gson_version}"
+}
